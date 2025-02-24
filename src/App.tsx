@@ -3,7 +3,6 @@ import {
   requestPermission,
   sendNotification,
 } from "@tauri-apps/plugin-notification";
-import "./titlebar.css";
 
 function App() {
   async function sayHello() {
@@ -15,13 +14,13 @@ function App() {
     }
 
     if (permissionGranted) {
-      sendNotification({ title: "Tauri", body: "Tauri is awesome!" });
+      sendNotification({ title: "Mochiiiii", body: "Nice to meet you!" });
     }
   }
 
   return (
-    <main className="container">
-      <h1>Welcome to Mochimon</h1>
+    <main className="flex">
+      <h1>Hellooooooo</h1>
       <button onClick={sayHello}>Press Me</button>
     </main>
   );
