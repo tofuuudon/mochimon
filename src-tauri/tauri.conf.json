@@ -15,12 +15,15 @@
         "title": "mochimon",
         "width": 800,
         "height": 600,
-        "resizable": false
+        "resizable": false,
+        "decorations": false,
+        "transparent": true
       }
     ],
     "security": {
       "csp": null
-    }
+    },
+    "macOSPrivateApi": true
   },
   "bundle": {
     "active": true,
